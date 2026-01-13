@@ -64,9 +64,9 @@ IMG_SIZE = 224
 # test_transforms = get_transform(IMG_SIZE=IMG_SIZE)
 
 ### Keras Model
-model_path = '/media/ci4r/Extra/Kamrul_files/Robo-Soccer/saved_model/converted_keras/keras_model.h5'
+model_path = 'saved_model/converted_keras/keras_model.h5'
 model = load_keras_model(model_path)
-labels_path = '/media/ci4r/Extra/Kamrul_files/Robo-Soccer/saved_model/converted_keras/labels.txt'
+labels_path = 'saved_model\converted_keras\labels.txt'
 class_names = load_labels(labels_path)
 
 ## Vex Configuration
